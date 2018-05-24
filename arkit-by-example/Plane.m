@@ -29,7 +29,7 @@
   // Instead of just visualizing the grid as a gray plane, we will render
   // it in some Tron style colours.
   SCNMaterial *material = [SCNMaterial new];
-  UIImage *img = [UIImage imageNamed:@"./tron_grid.png"];
+  UIImage *img = [UIImage imageNamed:@"./grid.png"];
   material.diffuse.contents = img;
   
   // Since we are using a cube, we only want to render the tron grid

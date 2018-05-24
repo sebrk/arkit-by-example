@@ -17,10 +17,7 @@
 - (void)setupSession;
 - (void)setupRecognizers;
 - (void)insertGeometry:(ARHitTestResult *)hitResult;
-- (void)explode:(ARHitTestResult *)hitResult;
 - (void)handleTapFrom: (UITapGestureRecognizer *)recognizer;
-- (void)handleHoldFrom: (UILongPressGestureRecognizer *)recognizer;
-- (void)handleHidePlaneFrom: (UILongPressGestureRecognizer *)recognizer;
 @property NSMutableDictionary *planes;
-@property NSMutableArray *boxes;
+@property NSMutableArray *geometry;
 @end
