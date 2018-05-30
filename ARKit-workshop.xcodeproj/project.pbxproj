@@ -14,13 +14,14 @@
 		4D48124B1EEA0522007EBA5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D48124A1EEA0522007EBA5A /* Assets.xcassets */; };
 		4D48124E1EEA0522007EBA5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D48124C1EEA0522007EBA5A /* LaunchScreen.storyboard */; };
 		4D4812511EEA0522007EBA5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4812501EEA0522007EBA5A /* main.m */; };
+		9E2BAC8720BCA1E00089D97D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E2BAC8620BCA1E00089D97D /* Default-568h@2x.png */; };
 		9ED7CE4920B5A55B007CE3D9 /* grid.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ED7CE4820B5A55B007CE3D9 /* grid.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4D2B85BE1EEB3386000D1CBE /* Plane.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Plane.m; sourceTree = "<group>"; };
 		4D2B85C01EEB33A5000D1CBE /* Plane.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Plane.h; sourceTree = "<group>"; };
-		4D48123C1EEA0522007EBA5A /* arkit-by-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "arkit-by-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D48123C1EEA0522007EBA5A /* ARKit-workshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ARKit-workshop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D48123F1EEA0522007EBA5A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4D4812401EEA0522007EBA5A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4D4812441EEA0522007EBA5A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -30,6 +31,7 @@
 		4D48124D1EEA0522007EBA5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D48124F1EEA0522007EBA5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D4812501EEA0522007EBA5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9E2BAC8620BCA1E00089D97D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		9ED7CE4820B5A55B007CE3D9 /* grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grid.png; path = ../../../Downloads/grid.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -47,7 +49,7 @@
 		4D4812331EEA0522007EBA5A = {
 			isa = PBXGroup;
 			children = (
-				4D48123E1EEA0522007EBA5A /* arkit-by-example */,
+				4D48123E1EEA0522007EBA5A /* ARKit-workshop */,
 				4D48123D1EEA0522007EBA5A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,14 +57,15 @@
 		4D48123D1EEA0522007EBA5A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4D48123C1EEA0522007EBA5A /* arkit-by-example.app */,
+				4D48123C1EEA0522007EBA5A /* ARKit-workshop.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4D48123E1EEA0522007EBA5A /* arkit-by-example */ = {
+		4D48123E1EEA0522007EBA5A /* ARKit-workshop */ = {
 			isa = PBXGroup;
 			children = (
+				9E2BAC8620BCA1E00089D97D /* Default-568h@2x.png */,
 				9ED7CE4820B5A55B007CE3D9 /* grid.png */,
 				4D48123F1EEA0522007EBA5A /* AppDelegate.h */,
 				4D4812401EEA0522007EBA5A /* AppDelegate.m */,
@@ -76,15 +79,15 @@
 				4D2B85C01EEB33A5000D1CBE /* Plane.h */,
 				4D2B85BE1EEB3386000D1CBE /* Plane.m */,
 			);
-			path = "arkit-by-example";
+			path = "ARKit-workshop";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4D48123B1EEA0522007EBA5A /* arkit-by-example */ = {
+		4D48123B1EEA0522007EBA5A /* ARKit-workshop */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4D4812541EEA0522007EBA5A /* Build configuration list for PBXNativeTarget "arkit-by-example" */;
+			buildConfigurationList = 4D4812541EEA0522007EBA5A /* Build configuration list for PBXNativeTarget "ARKit-workshop" */;
 			buildPhases = (
 				4D4812381EEA0522007EBA5A /* Sources */,
 				4D4812391EEA0522007EBA5A /* Frameworks */,
@@ -94,9 +97,9 @@
 			);
 			dependencies = (
 			);
-			name = "arkit-by-example";
+			name = "ARKit-workshop";
 			productName = "arkit-by-example";
-			productReference = 4D48123C1EEA0522007EBA5A /* arkit-by-example.app */;
+			productReference = 4D48123C1EEA0522007EBA5A /* ARKit-workshop.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -113,7 +116,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4D4812371EEA0522007EBA5A /* Build configuration list for PBXProject "arkit-by-example" */;
+			buildConfigurationList = 4D4812371EEA0522007EBA5A /* Build configuration list for PBXProject "ARKit-workshop" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -126,7 +129,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4D48123B1EEA0522007EBA5A /* arkit-by-example */,
+				4D48123B1EEA0522007EBA5A /* ARKit-workshop */,
 			);
 		};
 /* End PBXProject section */
@@ -139,6 +142,7 @@
 				4D48124E1EEA0522007EBA5A /* LaunchScreen.storyboard in Resources */,
 				4D48124B1EEA0522007EBA5A /* Assets.xcassets in Resources */,
 				4D4812491EEA0522007EBA5A /* Main.storyboard in Resources */,
+				9E2BAC8720BCA1E00089D97D /* Default-568h@2x.png in Resources */,
 				9ED7CE4920B5A55B007CE3D9 /* grid.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,7 +296,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8K4B9K38GQ;
-				INFOPLIST_FILE = "arkit-by-example/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/ARKit-workshop/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.temp.arkit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -305,7 +309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8K4B9K38GQ;
-				INFOPLIST_FILE = "arkit-by-example/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/ARKit-workshop/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.temp.arkit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -316,7 +320,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4D4812371EEA0522007EBA5A /* Build configuration list for PBXProject "arkit-by-example" */ = {
+		4D4812371EEA0522007EBA5A /* Build configuration list for PBXProject "ARKit-workshop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4D4812521EEA0522007EBA5A /* Debug */,
@@ -325,7 +329,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4D4812541EEA0522007EBA5A /* Build configuration list for PBXNativeTarget "arkit-by-example" */ = {
+		4D4812541EEA0522007EBA5A /* Build configuration list for PBXNativeTarget "ARKit-workshop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4D4812551EEA0522007EBA5A /* Debug */,
